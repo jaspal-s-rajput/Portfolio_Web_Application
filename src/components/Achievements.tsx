@@ -69,8 +69,8 @@ const Achievements: React.FC = () => {
   ];
 
   const certifications = [
-    { name: "Cloud Infrastructure Associate", issuer: "Oracle", date: "2025", logo: Coffee },
     { name: "Java Foundation Certification", issuer: "Infosys", date: "2025", logo: Coffee },
+    { name: "MERN Industrial Training", issuer: "Ardent Computech", date: "2025", logo: Coffee },
     { name: "Data Structure Using Java", issuer: "NPTEL", date: "2024", logo: Coffee },
     { name: "Front-End Developer", issuer: "Meta", date: "2023", logo: Coffee },
   ];
