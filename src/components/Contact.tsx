@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Instagram, CheckCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, SquareCode, CheckCircle } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -51,6 +51,12 @@ const Contact: React.FC = () => {
 
   const socialLinks = [
     {
+      icon: <SquareCode className="w-6 h-6" />,
+      label: "LeetCode",
+      href: "https://leetcode.com/u/jaspalsrajput/",
+      color: "hover:text-gray-900 dark:hover:text-white"
+    },
+    {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
       href: "https://github.com/jaspal-s-rajput",
@@ -62,18 +68,18 @@ const Contact: React.FC = () => {
       href: "http://www.linkedin.com/in/jaspal-singh-rajput-a63321214",
       color: "hover:text-blue-600"
     },
-    {
-      icon: <Twitter className="w-6 h-6" />,
-      label: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-blue-400"
-    },
-    {
-      icon: <Instagram className="w-6 h-6" />,
-      label: "Instagram",
-      href: "https://instagram.com",
-      color: "hover:text-pink-500"
-    }
+    // {
+    //   icon: <Twitter className="w-6 h-6" />,
+    //   label: "Twitter",
+    //   href: "https://twitter.com",
+    //   color: "hover:text-blue-400"
+    // },
+    // {
+    //   icon: <Instagram className="w-6 h-6" />,
+    //   label: "Instagram",
+    //   href: "https://instagram.com",
+    //   color: "hover:text-pink-500"
+    // }
   ];
 
   return (
