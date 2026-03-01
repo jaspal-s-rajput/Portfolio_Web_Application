@@ -9,18 +9,18 @@ const Skills: React.FC = () => {
       color: "from-blue-500 to-blue-600",
       skills: [
         { name: "Java", level: 88 },
-        { name: "SQL", level: 75 },
-        { name: "JavaScript", level: 67 }
+        { name: "SQL", level: 70 },
+        { name: "JavaScript", level: 65 }
       ]
     },
     {
       icon: <Coffee className="w-8 h-8" />,
       title: "Java EE Technologies",
-      color: "from-pink-500 to-pink-600",
+      color: "from-green-500 to-green-600",
       skills: [
-        { name: "Spring Framework", level: 82 },
+        { name: "Spring Framework", level: 80 },
         { name: "Spring MVC", level: 80 },
-        { name: "Spring Boot", level: 83 },
+        { name: "Spring Boot", level: 80 },
         { name: "Hibernate", level: 75 },
         { name: "Maven", level: 75 }
       ]
@@ -30,11 +30,20 @@ const Skills: React.FC = () => {
       title: "Web Technologies",
       color: "from-purple-500 to-purple-600",
       skills: [
-        { name: "HTML5/", level: 92 },
-        { name: "CSS3", level: 78 },
+        { name: "HTML5", level: 90 },
+        { name: "CSS3", level: 70 },
         { name: "React.js", level: 80 },
         { name: "Tailwind CSS", level: 75 },
         { name: "Vite", level: 78 },
+      ]
+    },
+    {
+      icon: <Shield className="w-8 h-8" />,
+      title: "Version Control",
+      color: "from-orange-500 to-orange-600",
+      skills: [
+        { name: "Git/GitHub", level: 70 },
+        { name: "Github Desktop", level: 95 },
       ]
     },
     {
@@ -43,23 +52,13 @@ const Skills: React.FC = () => {
       color: "from-teal-500 to-teal-600",
       skills: [
         { name: "MySQL", level: 85 },
-        { name: "PostgreSQL", level: 65 }
-      ]
-    },
-    {
-      icon: <Shield className="w-8 h-8" />,
-      title: "Version Control",
-      color: "from-green-500 to-green-600",
-      skills: [
-        { name: "Git", level: 70 },
-        { name: "Github", level: 85 },
-        { name: "Github Desktop", level: 95 },
+        { name: "PostgreSQL", level: 50 }
       ]
     },
     {
       icon: <Smartphone className="w-8 h-8" />,
       title: "Mobile Development",
-      color: "from-orange-500 to-orange-600",
+      color: "from-pink-500 to-pink-600",
       skills: [
         { name: "FlutterFlow", level: 75 }
       ]
