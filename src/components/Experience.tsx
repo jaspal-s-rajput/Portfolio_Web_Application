@@ -18,7 +18,7 @@ const Experience: React.FC = () => {
       current: false
     },
     {
-      title: "FlutterFlow Developer Intern",
+      title: "Frontend Developer Intern",
       company: "Byshrium Enterprises Pvt. Ltd.",
       location: "Bhopal, India",
       duration: "20 Feb 2025 - 22 May 2025",
