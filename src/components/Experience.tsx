@@ -14,8 +14,8 @@ const Experience: React.FC = () => {
       achievements: [
         "Developed a Smart City grievance management system using Java, Spring, and RESTful APIs. Implemented JWT authentication and role-based authorization using Spring Security. Designed and managed MySQL database schemas with JPA/Hibernate for efficient data persistence. Integrated backend services with a React (Vite) frontend and performed API testing using Postman."
       ],
-      technologies: ["Java EE", "Spring", "Tailwind CSS", "MySQL"],
-      current: true
+      technologies: ["Java EE", "Spring Framework", "Tailwind CSS", "MySQL"],
+      current: false
     },
     {
       title: "FlutterFlow Developer Intern",
@@ -31,7 +31,7 @@ const Experience: React.FC = () => {
         "Contributed to optimizing UI/UX workflows, improving UX & consistency across devices",
         "Developed cross-platorm applicaxtion for both Desktop & Mobile using Flutter"
       ],
-      technologies: ["FlutterFlow", "Dart", "Firebase", "Git", "Canva"],
+      technologies: ["FlutterFlow","Firebase","Canva"],
       current: false
     },
   ];
