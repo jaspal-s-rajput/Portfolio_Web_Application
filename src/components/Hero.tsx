@@ -43,8 +43,7 @@ const Hero: React.FC = () => {
             </div>
 
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl leading-relaxed">
-              Aspiring developer with hands-on experience in building responsive web and mobile applications. Skilled in Java EE, MySQL, React and UI/UX design. Thrive in fast-paced environments and love transforming ideas into impactful solutions.
-            </p>
+Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL. Developed and optimized scalable web applications, implemented secure APIs, and contributed to Agile teams. Passionate about developing scalable, high-performance, and maintainable software solutions aligned with hybrid-cloud and AI- driven systems            </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
