@@ -5,6 +5,19 @@ import Byshrium from "../media/byshLogo.png";
 const Experience: React.FC = () => {
   const experiences = [
     {
+      title: "Java Developer Intern",
+      company: "Infosys Springboard",
+      location: "Remote",
+      duration: "Dec 2025 - Jan 2026",
+      type: "Internship",
+      logo: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=100",
+      achievements: [
+        "Developed a Smart City grievance management system using Java, Spring, and RESTful APIs. Implemented JWT authentication and role-based authorization using Spring Security. Designed and managed MySQL database schemas with JPA/Hibernate for efficient data persistence. Integrated backend services with a React (Vite) frontend and performed API testing using Postman."
+      ],
+      technologies: ["Java EE", "Spring", "Tailwind CSS", "MySQL"],
+      current: true
+    },
+    {
       title: "FlutterFlow Developer Intern",
       company: "Byshrium Enterprises Pvt. Ltd.",
       location: "Bhopal, India",
@@ -20,22 +33,6 @@ const Experience: React.FC = () => {
       ],
       technologies: ["FlutterFlow", "Dart", "Firebase", "Git", "Canva"],
       current: false
-    },
-    {
-      title: "Java Developer Intern",
-      company: "Zangoh IT Solution Pvt. Ltd.",
-      location: "Remote",
-      duration: "Jun 2025 - Current",
-      type: "Part-time",
-      logo: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=100",
-      achievements: [
-        "Built responsive user interfaces for 2 mobile-first web applications",
-        "Optimized application performance resulting in 60% faster load times",
-        "Integrated third-party APIs including payment gateways and social media",
-        // "Mentored 2 junior developers and conducted technical workshops"
-      ],
-      technologies: ["Java EE", "Spring", "Tailwind CSS", "MySQL"],
-      current: true
     },
   ];
 
