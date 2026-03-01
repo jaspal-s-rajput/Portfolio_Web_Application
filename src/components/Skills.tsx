@@ -9,11 +9,8 @@ const Skills: React.FC = () => {
       color: "from-blue-500 to-blue-600",
       skills: [
         { name: "Java", level: 88 },
-        { name: "Python", level: 75 },
-        { name: "JavaScript", level: 67 },
-        { name: "TypeScript", level: 62 },
-        // { name: "C++", level: 75 },
-        { name: "C", level: 65 }
+        { name: "SQL", level: 75 },
+        { name: "JavaScript", level: 67 }
       ]
     },
     {
@@ -21,11 +18,10 @@ const Skills: React.FC = () => {
       title: "Web Technologies",
       color: "from-purple-500 to-purple-600",
       skills: [
-        { name: "HTML5/CSS3", level: 92 },
-        { name: "React.js", level: 90 },
-        { name: "Node.js", level: 70 },
-        { name: "BootStrap", level: 80 },
-        { name: "Tailwind CSS", level: 75 },
+        { name: "HTML5/", level: 92 },
+        { name: "CSS3", level: 78 },
+        { name: "React.js", level: 80 },
+        { name: "Tailwind CSS", level: 75 }       
       ]
     },
     {
@@ -34,11 +30,7 @@ const Skills: React.FC = () => {
       color: "from-teal-500 to-teal-600",
       skills: [
         { name: "MySQL", level: 85 },
-        { name: "MongoDB", level: 70 },
-        { name: "PostgreSQL", level: 65 },
-        { name: "Firebase", level: 60 },
-        // { name: "Redis", level: 70 },
-        // { name: "SQLite", level: 82 }
+        { name: "PostgreSQL", level: 65 }
       ]
     },
     {
@@ -47,9 +39,7 @@ const Skills: React.FC = () => {
       color: "from-orange-500 to-orange-600",
       skills: [
         // { name: "React Native", level: 80 },
-        { name: "FlutterFlow", level: 75 },
-        { name: "Android (Java)", level: 55 },
-        // { name: "Ionic", level: 65 }
+        { name: "FlutterFlow", level: 75 }
       ]
     },
     {
@@ -58,9 +48,10 @@ const Skills: React.FC = () => {
       color: "from-pink-500 to-pink-600",
       skills: [
         { name: "Enterprise Edition", level: 75 },
-        { name: "Spring Core", level: 82 },
+        { name: "Spring Framework", level: 82 },
         { name: "Spring MVC", level: 80 },
         { name: "Spring Boot", level: 83 },
+        { name: "Hibernate", level: 75 },
         { name: "Maven", level: 75 },
         // { name: "OpenCV", level: 70 }
       ]
@@ -71,10 +62,7 @@ const Skills: React.FC = () => {
       color: "from-green-500 to-green-600",
       skills: [
         { name: "Git/GitHub", level: 80 },
-        { name: "Docker", level: 70 },
-        { name: "AWS", level: 70 },
-        { name: "Linux", level: 85 },
-        // { name: "CI/CD", level: 72 }
+        { name: "Linux", level: 85 }
       ]
     }
   ];
@@ -133,8 +121,8 @@ const Skills: React.FC = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Agile/Scrum", "RESTful APIs", "Object Oriented Development", "Microservices", "SDLC",
-              "UI/UX Design", "Problem Solving", "Team Leadership", "Technical Writing", "Code Review"
+              "Data Structures", "RESTful APIs", "Object Oriented Development", "Agile Development", "SDLC",
+               "Problem Solving", "Team Leadership", "Collaborative"
             ].map((skill, index) => (
               <span
                 key={index}

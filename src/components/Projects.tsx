@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
       title: "SHRIUM - Automotive E-Com. Platform",
       description: "Full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration using Stripe API.",
       image: Shrium,
-      technologies: ["FlutterFlow", "Dart", "Firebase", "Canva"],
+      technologies: ["FlutterFlow","Firebase", "Canva"],
       category: "Cross Platform",
       featured: true,
       liveUrl: "https://byshrium.com/",

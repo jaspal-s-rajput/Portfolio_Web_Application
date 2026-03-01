@@ -7,11 +7,11 @@ const Hobbies: React.FC = () => {
   const hobbies = [
     {
       icon: <Code className="w-8 h-8" />,
-      title: "Competitive Programming",
-      description: "Participating in coding contests on CodeChef and LeetCode. Love solving algorithmic challenges and improving problem-solving skills.",
+      title: "Solving Problems on LeetCode Programming",
+      description: "Solving problem in LeetCode. Love solving algorithmic challenges and improving problem-solving skills.",
       image: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=400",
       color: "from-blue-500 to-cyan-500",
-      stats: "250+ problems solved"
+      stats: "50+ problems solved"
     },
     {
       icon: <Crown className="w-8 h-8" />,
@@ -35,7 +35,7 @@ const Hobbies: React.FC = () => {
       description: "Reading personal development and productivity books such as Atomic Habits and The Power of Now to gain insights on mindset, discipline, & continuous growth.",
       image: "https://img.drz.lazcdn.com/static/np/p/4b5697a527a477f6de475c1c9c28cd3a.png_720x720q80.png",
       color: "from-green-500 to-teal-500",
-      stats: "15+ Books"
+      stats: "10+ Books"
     },
     {
       icon: <TrophyIcon className="w-8 h-8" />,

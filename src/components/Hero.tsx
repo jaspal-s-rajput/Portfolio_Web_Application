@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Download, Github, Linkedin, Mail, SquareCode } from 'lucide-react';
 import profilePic from "../media/profilePic.png" ;
 
 const Hero: React.FC = () => {
@@ -62,6 +62,9 @@ const Hero: React.FC = () => {
 
             {/* Social Links */}
             <div className="flex justify-center lg:justify-start space-x-6">
+              <a href="https://leetcode.com/u/jaspalsrajput/" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
+                <SquareCode className="w-6 h-6" />
+              </a>
               <a href="https://github.com/jaspal-s-rajput" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
                 <Github className="w-6 h-6" />
               </a>

@@ -25,19 +25,19 @@ const Tools: React.FC = () => {
       icon: <Palette className="w-6 h-6" />,
       title: "Design Tools",
       color: "bg-gradient-to-r from-pink-500 to-pink-600",
-      tools: ["Figma", "Canva"]
+      tools: ["Canva"]
     },
     {
       icon: <Terminal className="w-6 h-6" />,
       title: "Development Tools",
       color: "bg-gradient-to-r from-orange-500 to-orange-600",
-      tools: ["Docker", "Webpack", "Babel"]
+      tools: ["Webpack", "Babel"]
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
       title: "Testing & Debug",
       color: "bg-gradient-to-r from-green-500 to-green-600",
-      tools: ["Chrome DevTools","Selenium", "JUnit"]
+      tools: ["Chrome DevTools"]
     }
   ];
 
@@ -88,10 +88,10 @@ const Tools: React.FC = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: "Microsoft Office Suite", level: 88, color: "from-blue-500 to-blue-600" },
-              { name: "Windows OS", level: 75, color: "from-purple-500 to-purple-600" },
-              { name: "Linux/Unix Systems", level: 81, color: "from-teal-500 to-teal-600" },
-              { name: "Database Management", level: 88, color: "from-orange-500 to-orange-600" }
+              { name: "Microsoft Office Suite", level: 85, color: "from-blue-500 to-blue-600" },
+              { name: "Windows OS", level: 70, color: "from-purple-500 to-purple-600" },
+              { name: "Linux/Unix Systems", level: 45, color: "from-teal-500 to-teal-600" },
+              { name: "Database Management", level: 75, color: "from-orange-500 to-orange-600" }
             ].map((software, index) => (
               <div key={index} className="text-center">
                 <div className="relative w-24 h-24 mx-auto mb-4">
