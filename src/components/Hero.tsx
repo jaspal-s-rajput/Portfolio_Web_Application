@@ -35,10 +35,10 @@ const Hero: React.FC = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-2">
-                B.Tech Computer Science Engineering Graduate
+                Java Backend Developer
               </p>
               <p className="text-lg text-gray-500 dark:text-gray-400">
-                2025 Graduate • Java Backend Developer
+                2025 • B.Tech Computer Science Engineering Graduate
               </p>
             </div>
 
