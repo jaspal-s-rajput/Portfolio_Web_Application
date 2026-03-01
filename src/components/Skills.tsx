@@ -14,6 +14,18 @@ const Skills: React.FC = () => {
       ]
     },
     {
+      icon: <Coffee className="w-8 h-8" />,
+      title: "Java EE Technologies",
+      color: "from-pink-500 to-pink-600",
+      skills: [
+        { name: "Spring Framework", level: 82 },
+        { name: "Spring MVC", level: 80 },
+        { name: "Spring Boot", level: 83 },
+        { name: "Hibernate", level: 75 },
+        { name: "Maven", level: 75 }
+      ]
+    },
+    {
       icon: <Globe className="w-8 h-8" />,
       title: "Web Technologies",
       color: "from-purple-500 to-purple-600",
@@ -21,7 +33,8 @@ const Skills: React.FC = () => {
         { name: "HTML5/", level: 92 },
         { name: "CSS3", level: 78 },
         { name: "React.js", level: 80 },
-        { name: "Tailwind CSS", level: 75 }       
+        { name: "Tailwind CSS", level: 75 },
+        { name: "Vite", level: 78 },
       ]
     },
     {
@@ -34,37 +47,24 @@ const Skills: React.FC = () => {
       ]
     },
     {
+      icon: <Shield className="w-8 h-8" />,
+      title: "Version Control",
+      color: "from-green-500 to-green-600",
+      skills: [
+        { name: "Git", level: 70 },
+        { name: "Github", level: 85 },
+        { name: "Github Desktop", level: 95 },
+      ]
+    },
+    {
       icon: <Smartphone className="w-8 h-8" />,
       title: "Mobile Development",
       color: "from-orange-500 to-orange-600",
       skills: [
-        // { name: "React Native", level: 80 },
         { name: "FlutterFlow", level: 75 }
       ]
     },
-    {
-      icon: <Coffee className="w-8 h-8" />,
-      title: "Java EE Technologies",
-      color: "from-pink-500 to-pink-600",
-      skills: [
-        { name: "Enterprise Edition", level: 75 },
-        { name: "Spring Framework", level: 82 },
-        { name: "Spring MVC", level: 80 },
-        { name: "Spring Boot", level: 83 },
-        { name: "Hibernate", level: 75 },
-        { name: "Maven", level: 75 },
-        // { name: "OpenCV", level: 70 }
-      ]
-    },
-    {
-      icon: <Shield className="w-8 h-8" />,
-      title: "DevOps & Cloud",
-      color: "from-green-500 to-green-600",
-      skills: [
-        { name: "Git/GitHub", level: 80 },
-        { name: "Linux", level: 85 }
-      ]
-    }
+    
   ];
 
   return (
