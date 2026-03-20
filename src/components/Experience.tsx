@@ -57,11 +57,11 @@ const Experience: React.FC = () => {
             {experiences.map((experience, index) => (
               <div key={index} className="relative flex items-start mb-12 last:mb-0">
                 {/* Timeline Dot */}
-                <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center relative z-10">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center relative z-10">
                   <img
                     src={experience.logo}
                     alt={experience.company}
-                    className="w-8 h-8 rounded-full object-cover"
+                    className="w-15 h-15 rounded-full object-cover"
                   />
                 </div>
 
