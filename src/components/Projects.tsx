@@ -6,9 +6,21 @@ import YaarsSociety from "../media/yaarsPrjct.png";
 import PortfolioApp from "../media/portfolioProject.png";
 // import CapyArena from "../media/hnbProject.png";
 import Shrium from "../media/shriumPrjct.png";
+import CivicPulse from "../media/CivicPulseBanner.png";
 
 const Projects: React.FC = () => {
   const projects = [
+    {
+      title: "CivicPulse - Smart City Grievance System",
+      description: "CivicPulse a Smart City grievance & redressal system designed to facilitate structured complaint submission, tracking, and resolution between citizens and municipal authorities.",
+      image: CivicPulse,
+      technologies: ["Java","Spring Framework", "Hibernate", "MySQL", "React.js", "Tailwind CSS", "JWT", "Maven"],
+      category: "Full Stack",
+      featured: true,
+      liveUrl: "https://jaspal-s-rajput.github.io/CivicPulse_Public_Grievence_System/",
+      githubUrl: "https://github.com/jaspal-s-rajput/CivicPulse_Public_Grievence_System",
+      stats: { stars: 45, views: 1200 }
+    },
     {
       title: "SHRIUM - Automotive E-Com. Platform",
       description: "Full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration using Stripe API.",
