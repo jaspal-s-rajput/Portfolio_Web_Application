@@ -60,7 +60,7 @@ const Achievements: React.FC = () => {
     },
     {
       icon: <Award className="w-8 h-8" />,
-      title: "University Handball Team Captain",
+      title: "SVVV University Handball Team Captain",
       subtitle: "From 2022 to 2024",
       description: "Led university handball team in various inter-college & regional tournaments. Responsible for team coordination, strategy, & fostering strong team spirit and discipline.",
       date: "Aug 2022",
@@ -72,8 +72,8 @@ const Achievements: React.FC = () => {
 
   const certifications = [
     { name: "Java Foundation Certification", issuer: "Infosys", date: "2025", logo: Coffee },
-    { name: "MERN Industrial Training", issuer: "Ardent Computech", date: "2025", logo: Coffee },
-    { name: "Data Structure Using Java", issuer: "NPTEL", date: "2024", logo: Coffee },
+    { name: "MERN Industrial Training", issuer: "Ardent Computech", date: "2024", logo: Coffee },
+    { name: "Data Structure Using Java", issuer: "NPTEL", date: "2023", logo: Coffee },
     { name: "Front-End Developer", issuer: "Meta", date: "2023", logo: Coffee },
   ];
 
