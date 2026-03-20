@@ -3,6 +3,8 @@ import { Trophy, Award, Star, Users, BookOpen, Target, Coffee, CrownIcon } from 
 import SportsID from "../media/spId.png";
 import SumIntern from "../media/summerIntern.png";
 import StateHandball from "../media/stateHand.png";
+import AgileCert from "../media/InfosysAgileCert.png";
+import ArdentCert from "../media/ArdentCert.png";
 
 const Achievements: React.FC = () => {
   const achievements = [
@@ -34,7 +36,7 @@ const Achievements: React.FC = () => {
       date: "Aug 2024",
       category: "Training",
       color: "from-teal-500 to-blue-500",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQFvJgo3LJdXdg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728275425944?e=1754301600&v=beta&t=mYp53Mgb0Lj24-6zCw7KWe8vBydACyx_xJ2NEA5HPbg"
+      image: ArdentCert
     },
     {
       icon: <Star className="w-8 h-8" />,
@@ -44,7 +46,7 @@ const Achievements: React.FC = () => {
       date: "May 2025",
       category: "Project Management",
       color: "from-green-500 to-teal-500",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQHWoKOg9XGh3w/profile-treasury-image-shrink_800_800/B56ZaUEehEHgAc-/0/1746240926566?e=1754301600&v=beta&t=SZcD08hx1glyv1ZMwObLA_3SKxS7rYP8_bNTC1y2hj4"
+      image: AgileCert
     },
     {
       icon: <Users className="w-8 h-8" />,
