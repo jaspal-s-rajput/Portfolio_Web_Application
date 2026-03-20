@@ -61,7 +61,7 @@ const Experience: React.FC = () => {
                   <img
                     src={experience.logo}
                     alt={experience.company}
-                    className="w-15 h-15 rounded-full object-cover"
+                    className="w-10 h-10 rounded-full object-cover"
                   />
                 </div>
 
