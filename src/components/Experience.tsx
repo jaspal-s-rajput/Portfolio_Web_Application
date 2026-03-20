@@ -6,11 +6,11 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       title: "Java Developer Intern",
-      company: "Infosys Springboard",
+      company: "Infosys Pvt. Ltd.",
       location: "Remote",
-      duration: "Dec 2025 - Jan 2026",
+      duration: "Nov 2025 - Jan 2026",
       type: "Internship",
-      logo: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=100",
+      logo: "https://static.vecteezy.com/system/resources/previews/020/336/451/non_2x/infosys-logo-infosys-icon-free-free-vector.jpg",
       achievements: [
         "Developed a Smart City grievance management system using Java, Spring, and RESTful APIs. Implemented JWT authentication and role-based authorization using Spring Security. Designed and managed MySQL database schemas with JPA/Hibernate for efficient data persistence. Integrated backend services with a React (Vite) frontend and performed API testing using Postman."
       ],
