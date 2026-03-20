@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       title: "CivicPulse - Smart City Grievance System",
       description: "CivicPulse a Smart City grievance & redressal system designed to facilitate structured complaint submission, tracking, and resolution between citizens and municipal authorities.",
       image: CivicPulse,
-      technologies: ["Java","Spring Framework", "Hibernate", "MySQL", "React.js", "Tailwind CSS", "JWT", "Maven"],
+      technologies: ["Java","Spring", "Hibernate", "MySQL", "React.js", "Tailwind CSS"],
       category: "Full Stack",
       featured: true,
       liveUrl: "https://jaspal-s-rajput.github.io/CivicPulse_Public_Grievence_System/",

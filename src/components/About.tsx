@@ -19,23 +19,15 @@ const About: React.FC = () => {
               Get to know me!
             </h3>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              I'm a final-year B.Tech Computer Science Engineering student with a passion for creating 
-              innovative digital solutions. My journey in technology began with curiosity about how 
-              things work and has evolved into a deep love for problem-solving through code.
+              I'm a Computer Science graduate with a strong focus on building scalable backend systems and practical web applications. My journey in technology began with curiosity about how systems work and has evolved into a focused approach toward solving real-world problems through code.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Throughout my academic journey, I've maintained a strong focus on both theoretical knowledge 
-              and practical application. I believe in continuous learning and staying updated with the 
-              latest technological trends and industry best practices.
+              Throughout my learning and internship experience, I've maintained a balance between theoretical understanding and practical implementation. I consistently work on improving my skills in Java, Spring Boot, Hibernate, and MySQL while staying aligned with industry standards and best practices.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-              So far, I've built and contributed to projects in web and mobile development.
-              From sports management systems to healthcare service platforms, I've consistently aimed to create impactful solutions. 
-              I look forward to exploring new challenges that push me to expand my skills, collaborate with talented teams, and make a difference through technology.
-            </p>
+              So far, I've built and contributed to projects in web development, including a smart city grievance system, sports tournament manager, and a blood donation platform. In these projects, my focus has been on developing efficient APIs, improving system performance, and creating solutions that deliver real-world value.            </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-              I'm actively seeking internship opportunities where I can contribute to meaningful projects 
-              while continuing to grow as a developer and technology professional.
+              I'm actively seeking entry-level opportunities where I can contribute to meaningful projects, work in collaborative environments, and continue growing as a backend or full-stack developer.
             </p>
 
             {/* Personal Details */}
