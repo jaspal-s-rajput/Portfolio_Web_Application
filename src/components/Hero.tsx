@@ -72,11 +72,11 @@ Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL
               <a href="https://www.linkedin.com/in/jaspal-s-rajput-a63321214/" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="https://x.com/jaspal_s_rajput" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
+              <a href="https://x.com/jaspal_s_rajput" className="flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
                 <SiX className="w-5 h-5" />
               </a>
               <a href="mailto:rajputjaspalsingh12@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
-                <Mail className="w-6 h-6 justify-center" />
+                <Mail className="w-6 h-6 " />
               </a>
             </div>
           </div>
