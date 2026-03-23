@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown, Download, Github, Linkedin, Mail, SquareCode } from 'lucide-react';
-import { Leetcode} from 'simple-icons';
+import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
 
 import profilePic from "../media/profilePic.png" ;
 
@@ -73,7 +73,7 @@ Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL
                 <Linkedin className="w-6 h-6" />
               </a>
               <a href="https://x.com/jaspal_s_rajput" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
-                <Leetcode className="w-6 h-6" />
+                <SiLeetcode className="w-6 h-6" />
               </a>
               <a href="mailto:rajputjaspalsingh12@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
                 <Mail className="w-6 h-6" />
