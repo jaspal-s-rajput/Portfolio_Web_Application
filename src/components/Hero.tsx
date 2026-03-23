@@ -73,7 +73,7 @@ Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL
                 <Linkedin className="w-6 h-6" />
               </a>
               <a href="https://x.com/jaspal_s_rajput" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
-                <SiX className="w-4 h-4" />
+                <SiX className="w-5 h-5" />
               </a>
               <a href="mailto:rajputjaspalsingh12@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transform transition-all duration-200 hover:scale-110">
                 <Mail className="w-6 h-6" />
