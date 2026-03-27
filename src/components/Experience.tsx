@@ -16,7 +16,7 @@ const Experience: React.FC = () => {
       achievements: [
         "Developing and maintaining automated test scripts for web applications using Selenium WebDriver (Java) and TestNG, with exposure to modern tools like Playwright/Cypress for JavaScript-based testing. Implementing reusable test components, executing regression and smoke test suites, and collaborating with development teams to identify, log, and track defects. Actively improving test reliability and coverage while working with dynamic web elements and real-world testing scenarios."
       ],
-      technologies: ["Java", "JavaScript", "Selenium", "Cypress"],
+      technologies: ["Java", "JavaScript", "Selenium WebDriver", "TestNG", "XPath/CSS Selectors", "Playwright", "Cypress"],
       current: true
     },
     {
