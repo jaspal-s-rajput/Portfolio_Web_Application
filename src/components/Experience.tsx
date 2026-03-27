@@ -1,6 +1,8 @@
 import React from 'react';
 import { MapPin, Calendar, ExternalLink } from 'lucide-react';
 import Byshrium from "../media/byshLogo.png";
+import LiseInfotechLogo from "../media/liseInfotech.png";
+
 
 const Experience: React.FC = () => {
   const experiences = [
@@ -10,7 +12,7 @@ const Experience: React.FC = () => {
       location: "Indore",
       duration: "Mar 2025 - Present",
       type: "Full-Time",
-      logo: "https://instagram.fbho4-5.fna.fbcdn.net/v/t51.2885-19/277855295_5983406165021280_354832354362434086_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NDYuYzIifQ&_nc_ht=instagram.fbho4-5.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gGVZjvkCjn5Kijb3WNZOYkGNgBT9SqKtRN2EkDVLIP-SAT6jQ9WvXGrSka3dBL6D9lXSNsAHdJv74UGxmsydE2t&_nc_ohc=VwWoOGKaz3sQ7kNvwEBFvaC&_nc_gid=a_tMGP0-N1edU1vXWGbGgA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfwQB-Jb2Y2YGS49cb0eN6uiCp2v0SqE_HP6nR9eFdEYuQ&oe=69CBF9CE&_nc_sid=7a9f4b",
+      logo: LiseInfotechLogo,
       achievements: [
         "Developed a Smart City grievance management system using Java, Spring, and RESTful APIs. Implemented JWT authentication and role-based authorization using Spring Security. Designed and managed MySQL database schemas with JPA/Hibernate for efficient data persistence. Integrated backend services with a React (Vite) frontend and performed API testing using Postman."
       ],
