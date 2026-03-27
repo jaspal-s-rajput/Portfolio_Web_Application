@@ -14,7 +14,7 @@ const Experience: React.FC = () => {
       type: "Full-Time",
       logo: LiseInfotechLogo,
       achievements: [
-        "Developed a Smart City grievance management system using Java, Spring, and RESTful APIs. Implemented JWT authentication and role-based authorization using Spring Security. Designed and managed MySQL database schemas with JPA/Hibernate for efficient data persistence. Integrated backend services with a React (Vite) frontend and performed API testing using Postman."
+        "Developing and maintaining automated test scripts for web applications using Selenium WebDriver (Java) and TestNG, with exposure to modern tools like Playwright/Cypress for JavaScript-based testing. Implementing reusable test components, executing regression and smoke test suites, and collaborating with development teams to identify, log, and track defects. Actively improving test reliability and coverage while working with dynamic web elements and real-world testing scenarios."
       ],
       technologies: ["Java", "JavaScript", "Selenium", "Cypress"],
       current: true
