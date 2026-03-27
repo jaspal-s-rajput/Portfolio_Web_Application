@@ -16,7 +16,7 @@ const Experience: React.FC = () => {
       achievements: [
         "Developed a Smart City grievance management system using Java, Spring, and RESTful APIs. Implemented JWT authentication and role-based authorization using Spring Security. Designed and managed MySQL database schemas with JPA/Hibernate for efficient data persistence. Integrated backend services with a React (Vite) frontend and performed API testing using Postman."
       ],
-      technologies: ["Java EE", "Spring Framework", "Tailwind CSS", "MySQL"],
+      technologies: ["Java", "JavaScript", "Selenium", "Cypress"],
       current: true
     },
     {
