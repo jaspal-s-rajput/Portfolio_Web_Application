@@ -7,6 +7,7 @@ import PortfolioApp from "../media/portfolioProject.png";
 // import CapyArena from "../media/hnbProject.png";
 import Shrium from "../media/shriumPrjct.png";
 import CivicPulse from "../media/CivicPulseBanner.png";
+import LeetInsightProject from "../media/LeetInsightProject.png";
 
 const Projects: React.FC = () => {
   const projects = [
@@ -57,7 +58,7 @@ const Projects: React.FC = () => {
     {
       title: "LeetInsight – LeetCode Analytics Dashboard",
       description: "Interactive LeetCode analytics dashboard that fetches user stats via GraphQL and visualizes rank, solved problems, streak, acceptance rate, and difficulty-wise performance using dynamic charts and UI components.",
-      image: HindNational,
+      image: LeetInsightProject,
       technologies: ["HTML5", "CSS3", "Tailwind CSS", "Node.js", "GraphQL"],
       category: "Web App",
       featured: true,
