@@ -55,6 +55,17 @@ const Projects: React.FC = () => {
       stats: { stars: 63, views: 1200 }
     },
     {
+      title: "LeetInsight – LeetCode Analytics Dashboard",
+      description: "Interactive LeetCode analytics dashboard that fetches user stats via GraphQL and visualizes rank, solved problems, streak, acceptance rate, and difficulty-wise performance using dynamic charts and UI components.",
+      image: HindNational,
+      technologies: ["HTML5", "CSS3", "Tailwind CSS", "Node.js", "GraphQL"],
+      category: "Web App",
+      featured: true,
+      liveUrl: "#",
+      githubUrl: "https://github.com/jaspal-s-rajput/LeetInsight_LeetCode_Profile_Analyzer?tab=readme-ov-file",
+      stats: { stars: 15, views: 150 }
+    },
+    {
       title: "Hind National E-Banking",
       description: "Built responsive e-banking application, enabling users to manage accounts, transactions, & support requests. Integrated user authentication, dynamic forms, & RBI guideline modules to ensure secure & regulation-compliant banking operations",
       image: HindNational,
