@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
       stats: { stars: 63, views: 1200 }
     },
     {
-      title: "LeetInsight – LeetCode Analytics Dashboard",
+      title: "LeetInsight – LeetCode Profile Analyzer",
       description: "Interactive LeetCode analytics dashboard that fetches user stats via GraphQL and visualizes rank, solved problems, streak, acceptance rate, and difficulty-wise performance using dynamic charts and UI components.",
       image: LeetInsightProject,
       technologies: ["HTML5", "CSS3", "Tailwind CSS", "Node.js", "GraphQL"],
