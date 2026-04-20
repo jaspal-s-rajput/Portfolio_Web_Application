@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
     {
       icon: <SiX className="w-6 h-6" />,
       label: "Twitter",
-      href: "http://www.linkedin.com/in/jaspal-singh-rajput-a63321214",
+      href: "https://x.com/jaspal_s_rajput",
       color: "hover:text-white"
     },
   ];
