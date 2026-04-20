@@ -150,7 +150,8 @@ const Hobbies: React.FC = () => {
                   { year: "2023", milestone: "Started Projects on Java based Web Application" },
                   { year: "2024", milestone: "Worked on Minor and Major Projects for fulfillment of B.Tech." },
                   { year: "2025", milestone: "Internship at Byshrium Ent. Pvt. Ltd. developed Cross-Platform Application (Desktop/IOS/Android)" },
-                  { year: "2026", milestone: "Internship at Infosys Pvt. Ltd. as Java Backend Developer" },
+                  { year: "2025-26", milestone: "Internship at Infosys Pvt. Ltd. as Java Backend Developer" },
+                  { year: "2026", milestone: "Joined Lise Infotech Pvt. Ltd. team as SDET" },
                 ].map((item, index) => (
                   <div key={index} className={`flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
                     <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
