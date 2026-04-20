@@ -166,7 +166,7 @@ const Experience: React.FC = () => {
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">6+</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">1+</div>
                 <div className="text-gray-600 dark:text-gray-300">Months of Experience</div>
               </div>
               <div>
@@ -174,7 +174,7 @@ const Experience: React.FC = () => {
                 <div className="text-gray-600 dark:text-gray-300">Projects Completed</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-teal-600 mb-2">2</div>
+                <div className="text-3xl font-bold text-teal-600 mb-2">3</div>
                 <div className="text-gray-600 dark:text-gray-300">Companies Worked With</div>
               </div>
             </div>

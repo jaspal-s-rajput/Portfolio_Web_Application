@@ -80,20 +80,20 @@ const About: React.FC = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">5+</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">1+</div>
+                <div className="text-gray-600 dark:text-gray-300">Year of Experience</div>
+              </div>
+              <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
+                <div className="text-3xl font-bold text-purple-600 mb-2">5+</div>
                 <div className="text-gray-600 dark:text-gray-300">Projects</div>
               </div>
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">20+</div>
+                <div className="text-3xl font-bold text-teal-600 mb-2">20+</div>
                 <div className="text-gray-600 dark:text-gray-300">Technologies</div>
               </div>
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
-                <div className="text-3xl font-bold text-teal-600 mb-2">2</div>
+                <div className="text-3xl font-bold text-orange-600 mb-2">3</div>
                 <div className="text-gray-600 dark:text-gray-300">Internships</div>
-              </div>
-              <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg text-center">
-                <div className="text-3xl font-bold text-orange-600 mb-2">5+</div>
-                <div className="text-gray-600 dark:text-gray-300">Achievements</div>
               </div>
             </div>
           </div>
