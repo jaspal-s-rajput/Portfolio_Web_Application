@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUp, Heart, Github, Linkedin, Mail, Code, SquareCode } from 'lucide-react';
+import { SiLeetcode, SiX} from "react-icons/si";
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -43,14 +44,14 @@ const Footer: React.FC = () => {
             <div className="flex space-x-4">
               <a
                 href="https://leetcode.com/u/jaspalsrajput/"
-                className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-orange-400 rounded-lg flex items-center justify-center transition-colors duration-200"
                 aria-label="LeetCode"
               >
-                <SquareCode className="w-5 h-5" />
+                <SiLeetcode className="w-5 h-5" />
               </a>
               <a
                 href="https://github.com/jaspal-s-rajput"
-                className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-slate-900 rounded-lg flex items-center justify-center transition-colors duration-200"
                 aria-label="GitHub"
               >
                 <Github className="w-5 h-5" />
@@ -61,6 +62,13 @@ const Footer: React.FC = () => {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="http://www.linkedin.com/in/jaspal-singh-rajput-a63321214"
+                className="w-10 h-10 bg-gray-800 hover:bg-slate-600 rounded-lg flex items-center justify-center transition-colors duration-200"
+                aria-label="LinkedIn"
+              >
+                <SiX className="w-5 h-5" />
               </a>
               <a
                 href="mailto:rajputjaspalsingh12@gmail.com"
