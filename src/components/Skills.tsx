@@ -56,6 +56,7 @@ const Skills: React.FC = () => {
       skills: [
         { name: "Git/GitHub", level: 70 },
         { name: "Github Desktop", level: 95 },
+        { name: "BitBucket", level: 80 },
       ]
     },
     {
