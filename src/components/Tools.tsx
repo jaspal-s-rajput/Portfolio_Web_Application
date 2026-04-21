@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monitor, Smartphone, Cloud, GitBranch, Palette, Terminal } from 'lucide-react';
+import { Monitor, Smartphone, Cloud, GitBranch, Terminal, User2 } from 'lucide-react';
 
 const Tools: React.FC = () => {
   const toolCategories = [
@@ -28,7 +28,7 @@ const Tools: React.FC = () => {
       tools: ["Webpack", "Babel"]
     },
     {
-      icon: <Palette className="w-6 h-6" />,
+      icon: <User2 className="w-6 h-6" />,
       title: "Collaboration Tools",
       color: "bg-gradient-to-r from-pink-500 to-pink-600",
       tools: ["Jira", "Slack"]
