@@ -33,7 +33,6 @@ const Skills: React.FC = () => {
       skills: [
         { name: "Playwright", level: 75 },
         { name: "Selenium", level: 60 },
-        { name: "JUnit", level: 59 },
         { name: "API Testing (REST Assured)", level: 58 },
         { name: "K6", level: 55 },
       ]
