@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Globe, Smartphone, Shield, Coffee } from 'lucide-react';
+import { Code, Database, Globe, Smartphone, Shield, Coffee, BugPlayIcon } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
@@ -10,7 +10,8 @@ const Skills: React.FC = () => {
       skills: [
         { name: "Java", level: 88 },
         { name: "SQL", level: 70 },
-        { name: "JavaScript", level: 65 }
+        { name: "JavaScript", level: 65 },
+        { name: "TypeScript", level: 55 }
       ]
     },
     {
@@ -23,6 +24,18 @@ const Skills: React.FC = () => {
         { name: "Spring Boot", level: 80 },
         { name: "Hibernate", level: 75 },
         { name: "Maven", level: 75 }
+      ]
+    },
+    {
+      icon: <BugPlayIcon className="w-8 h-8" />,
+      title: "Testing Technologies",
+      color: "from-indigo-500 to-indigo-600",
+      skills: [
+        { name: "Playwright", level: 75 },
+        { name: "Selenium", level: 60 },
+        { name: "JUnit", level: 59 },
+        { name: "API Testing (REST Assured)", level: 58 },
+        { name: "K6", level: 55 },
       ]
     },
     {
