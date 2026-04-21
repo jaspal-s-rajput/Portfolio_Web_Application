@@ -45,7 +45,8 @@ const Hero: React.FC = () => {
             </div>
 
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl leading-relaxed">
-Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL. Developed and optimized scalable web applications, implemented secure APIs, and contributed to Agile teams. Passionate about developing scalable, high-performance, and maintainable software solutions aligned with hybrid-cloud and AI- driven systems            </p>
+              QA Automation Engineer (SDET) specializing in Playwright for end-to-end web testing and modern automation workflows. Experienced in designing robust test scripts, validating complex UI interactions, and ensuring application stability across environments. Proficient in Page Object Model (POM), test design, debugging, and Agile testing practices. Familiar with Selenium and API testing, with a strong focus on scalable automation, cloud-oriented testing, and emerging AI-driven quality engineering approaches.
+{/* Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL. Developed and optimized scalable web applications, implemented secure APIs, and contributed to Agile teams. Passionate about developing scalable, high-performance, and maintainable software solutions aligned with hybrid-cloud and AI- driven systems            </p> */}
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
