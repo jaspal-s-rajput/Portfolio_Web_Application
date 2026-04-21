@@ -21,7 +21,8 @@ const About: React.FC = () => {
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
               Computer Science graduate with hands-on experience in QA automation and backend development, focused on building reliable and scalable web applications. Skilled in Playwright for end-to-end testing, with practical exposure to designing test flows, validating UI behavior, and improving application quality through automation.            </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Strong foundation in Java, Spring Boot, Hibernate, and MySQL, combined with knowledge of Selenium and API testing. Experienced in applying POM design, debugging test failures, and working within Agile development environments.            </p>
+              Strong foundation in Java, Spring Boot, Hibernate, and MySQL, combined with knowledge of Selenium and API testing. Experienced in applying POM design, debugging test failures, and working within Agile development environments. Focused on delivering reliable, high-quality software through efficient and scalable test automation.
+            </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
               Contributed to real-world projects including a smart city grievance system, sports tournament manager, and blood donation platform—focusing on API development, system performance, and test reliability.
             </p>
