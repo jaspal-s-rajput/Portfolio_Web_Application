@@ -66,13 +66,16 @@ const About: React.FC = () => {
                 <div>
                   <h5 className="font-semibold text-gray-900 dark:text-white">Higher Secondary Certificate</h5>
                   <p className="text-gray-600 dark:text-gray-300">Science Stream (PCM)</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">CBSE : Modern International School • 2021</p>
+                  <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">CBSE : Modern International School • 2021</p>
+                  
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-400">CBSE : Modern International School • 2021</p> */}
                   {/* <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">Percentage: 72%</p> */}
                 </div>
                 <div>
                   <h5 className="font-semibold text-gray-900 dark:text-white">Secondary School Certificate</h5>
                   <p className="text-gray-600 dark:text-gray-300">Science Stream (PCM)</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">CBSE : Kendriya Vidyalaya Sangathan • 2019</p>
+                  <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">CBSE : Kendriya Vidyalaya Sangathan • 2019</p>
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-400">CBSE : Kendriya Vidyalaya Sangathan • 2019</p> */}
                   {/* <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">Percentage: 76.2%</p> */}
                 </div>
               </div>
