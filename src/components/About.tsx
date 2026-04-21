@@ -59,7 +59,8 @@ const About: React.FC = () => {
                 <div>
                   <h5 className="font-semibold text-gray-900 dark:text-white">Bachelor of Technology</h5>
                   <p className="text-gray-600 dark:text-gray-300">Computer Science Engineering</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Shri Vaishnav Vidyapeeth Vishwavidyalaya • 2021-2025</p>
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-400">Shri Vaishnav Vidyapeeth Vishwavidyalaya • 2021-2025</p> */}
+                  <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">Shri Vaishnav Vidyapeeth Vishwavidyalaya • 2021-2025</p>
                   {/* <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">CGPA: 8.15/10</p> */}
                 </div>
                 <div>
