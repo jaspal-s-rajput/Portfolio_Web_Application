@@ -133,8 +133,8 @@ const Skills: React.FC = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Data Structures", "RESTful APIs", "Object Oriented Development", "Agile Development", "SDLC",
-               "Problem Solving", "Team Leadership", "Collaborative"
+              "Data Structures", "RESTful APIs", "Object-Oriented Development", "Agile Development", "SDLC", "STLC",
+               "Problem Solving", "Team Leadership", "Bug Lifecycle"
             ].map((skill, index) => (
               <span
                 key={index}

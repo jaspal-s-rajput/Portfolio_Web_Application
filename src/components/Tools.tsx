@@ -13,19 +13,13 @@ const Tools: React.FC = () => {
       icon: <GitBranch className="w-6 h-6" />,
       title: "Version Control",
       color: "bg-gradient-to-r from-purple-500 to-purple-600",
-      tools: ["Git", "GitHub", "GitHub Desktop"]
+      tools: ["Git", "GitHub", "BitBucket"]
     },
     {
-      icon: <Cloud className="w-6 h-6" />,
-      title: "Cloud Platforms",
-      color: "bg-gradient-to-r from-teal-500 to-teal-600",
-      tools: ["AWS"]
-    },
-    {
-      icon: <Palette className="w-6 h-6" />,
-      title: "Design Tools",
-      color: "bg-gradient-to-r from-pink-500 to-pink-600",
-      tools: ["Canva"]
+      icon: <Smartphone className="w-6 h-6" />,
+      title: "Testing & Debug",
+      color: "bg-gradient-to-r from-green-500 to-green-600",
+      tools: ["DevTools", "PlayWright", "TestRail", "Postman"]
     },
     {
       icon: <Terminal className="w-6 h-6" />,
@@ -34,10 +28,16 @@ const Tools: React.FC = () => {
       tools: ["Webpack", "Babel"]
     },
     {
-      icon: <Smartphone className="w-6 h-6" />,
-      title: "Testing & Debug",
-      color: "bg-gradient-to-r from-green-500 to-green-600",
-      tools: ["Chrome DevTools"]
+      icon: <Palette className="w-6 h-6" />,
+      title: "Collaboration Tools",
+      color: "bg-gradient-to-r from-pink-500 to-pink-600",
+      tools: ["Jira", "Slack"]
+    },
+    {
+      icon: <Cloud className="w-6 h-6" />,
+      title: "Cloud Platforms",
+      color: "bg-gradient-to-r from-teal-500 to-teal-600",
+      tools: ["AWS"]
     }
   ];
 
