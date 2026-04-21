@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { SiLeetcode, SiX } from "react-icons/si";
 
-import profilePic from "../media/profilePic.png" ;
+import profilePic from "../media/profilePic.png";
 
 const Hero: React.FC = () => {
   const scrollToAbout = () => {
@@ -46,7 +46,8 @@ const Hero: React.FC = () => {
 
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl leading-relaxed">
               QA Automation Engineer (SDET) specializing in Playwright for end-to-end web testing and modern automation workflows. Experienced in designing robust test scripts, validating complex UI interactions, and ensuring application stability across environments. Proficient in Page Object Model (POM), test design, debugging, and Agile testing practices. Familiar with Selenium and API testing, with a strong focus on scalable automation, cloud-oriented testing, and emerging AI-driven quality engineering approaches.
-{/* Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL. Developed and optimized scalable web applications, implemented secure APIs, and contributed to Agile teams. Passionate about developing scalable, high-performance, and maintainable software solutions aligned with hybrid-cloud and AI- driven systems            </p> */}
+              {/* Aspiring Software Developer with expertise in Java, Spring, Hibernate, and MySQL. Developed and optimized scalable web applications, implemented secure APIs, and contributed to Agile teams. Passionate about developing scalable, high-performance, and maintainable software solutions aligned with hybrid-cloud and AI- driven systems             */}
+            </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -54,7 +55,7 @@ const Hero: React.FC = () => {
                 <Download className="w-5 h-5 inline mr-2" />
                 Download Resume
               </button>
-              <button 
+              <button
                 onClick={scrollToAbout}
                 className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 rounded-lg font-semibold hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-all duration-200"
               >
