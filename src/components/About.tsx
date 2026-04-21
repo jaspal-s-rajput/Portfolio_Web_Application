@@ -19,15 +19,14 @@ const About: React.FC = () => {
               Get to know me!
             </h3>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              I'm a Computer Science graduate with a strong focus on building scalable backend systems and practical web applications. My journey in technology began with curiosity about how systems work and has evolved into a focused approach toward solving real-world problems through code.
-            </p>
+              Computer Science graduate with hands-on experience in QA automation and backend development, focused on building reliable and scalable web applications. Skilled in Playwright for end-to-end testing, with practical exposure to designing test flows, validating UI behavior, and improving application quality through automation.            </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Throughout my learning and internship experience, I've maintained a balance between theoretical understanding and practical implementation. I consistently work on improving my skills in Java, Spring Boot, Hibernate, and MySQL while staying aligned with industry standards and best practices.
+              Strong foundation in Java, Spring Boot, Hibernate, and MySQL, combined with knowledge of Selenium and API testing. Experienced in applying POM design, debugging test failures, and working within Agile development environments.            </p>
+            <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+              Contributed to real-world projects including a smart city grievance system, sports tournament manager, and blood donation platform—focusing on API development, system performance, and test reliability.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-              So far, I've built and contributed to projects in web development, including a smart city grievance system, sports tournament manager, and a blood donation platform. In these projects, my focus has been on developing efficient APIs, improving system performance, and creating solutions that deliver real-world value.            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-              I'm actively seeking entry-level opportunities where I can contribute to meaningful projects, work in collaborative environments, and continue growing as a backend or full-stack developer.
+              Actively seeking opportunities as an SDET or QA Automation Engineer to deliver high-quality software through efficient, scalable, and modern testing practices.
             </p>
 
             {/* Personal Details */}
@@ -60,19 +59,19 @@ const About: React.FC = () => {
                   <h5 className="font-semibold text-gray-900 dark:text-white">Bachelor of Technology</h5>
                   <p className="text-gray-600 dark:text-gray-300">Computer Science Engineering</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">Shri Vaishnav Vidyapeeth Vishwavidyalaya • 2021-2025</p>
-                  <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">CGPA: 8.15/10</p>
+                  {/* <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">CGPA: 8.15/10</p> */}
                 </div>
                 <div>
                   <h5 className="font-semibold text-gray-900 dark:text-white">Higher Secondary Certificate</h5>
                   <p className="text-gray-600 dark:text-gray-300">Science Stream (PCM)</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">CBSE : Modern International School • 2021</p>
-                  <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">Percentage: 72%</p>
+                  {/* <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">Percentage: 72%</p> */}
                 </div>
                 <div>
                   <h5 className="font-semibold text-gray-900 dark:text-white">Secondary School Certificate</h5>
                   <p className="text-gray-600 dark:text-gray-300">Science Stream (PCM)</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400">CBSE : Kendriya Vidyalaya Sangathan • 2019</p>
-                  <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">Percentage: 76.2%</p>
+                  {/* <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">Percentage: 76.2%</p> */}
                 </div>
               </div>
             </div>
