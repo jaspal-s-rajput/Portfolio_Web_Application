@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
               />
             </div>
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center animate-pulse">
-              <span className="text-white font-bold text-sm">B.Tech</span>
+              <span className="text-white font-bold text-sm">SDET I</span>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-2">
-                Java Backend Developer
+                Software Developer Engineer in Test I
               </p>
               <p className="text-lg text-gray-500 dark:text-gray-400">
                 2025 • B.Tech Computer Science Engineering Graduate
