@@ -7,7 +7,7 @@ const Tools: React.FC = () => {
       icon: <Monitor className="w-6 h-6" />,
       title: "Development IDEs",
       color: "bg-gradient-to-r from-blue-500 to-blue-600",
-      tools: ["Eclipse IDE","MySQL Workbench", "IntelliJ IDEA", "FlutterFlow", "Visual Studio Code", "Sublime Text"]
+      tools: ["Eclipse IDE","MySQL Workbench", "IntelliJ IDEA", "FlutterFlow", "VS Code"]
     },
     {
       icon: <GitBranch className="w-6 h-6" />,
