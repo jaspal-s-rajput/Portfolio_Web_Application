@@ -1,9 +1,9 @@
 import React from 'react';
-import { Trophy, Award, Star, Users, BookOpen, Target, Coffee, CrownIcon } from 'lucide-react';
+import { Trophy, Award, Star, Users, Target, Coffee, CrownIcon } from 'lucide-react';
 import SportsID from "../media/spId.png";
 import SumIntern from "../media/summerIntern.png";
 import StateHandball from "../media/stateHand.png";
-import AgileCert from "../media/InfosysAgileCert.png";
+import AgileCert from "../media/HpAgileCert.png";
 import ArdentCert from "../media/ArdentCert.png";
 
 const Achievements: React.FC = () => {
