@@ -41,7 +41,7 @@ const Header: React.FC = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-            <span className="text-3xl font-bold text-blue-600 dark:text-purple-400">JS</span>Portfolio
+            <span className="text-3xl font-bold text-blue-600 dark:text-purple-400">Jaspal</span>Singh Rajput
           </div>
 
           {/* Desktop Navigation */}
