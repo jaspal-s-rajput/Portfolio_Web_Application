@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monitor, Smartphone, Cloud, GitBranch, Terminal, User2 } from 'lucide-react';
+import { Monitor, BugPlayIcon, Cloud, GitBranch, Terminal, User2 } from 'lucide-react';
 
 const Tools: React.FC = () => {
   const toolCategories = [
@@ -16,22 +16,22 @@ const Tools: React.FC = () => {
       tools: ["Git", "GitHub", "BitBucket"]
     },
     {
-      icon: <Smartphone className="w-6 h-6" />,
+      icon: <BugPlayIcon className="w-6 h-6" />,
       title: "Testing & Debug",
       color: "bg-gradient-to-r from-green-500 to-green-600",
-      tools: ["DevTools", "PlayWright", "TestRail", "Postman"]
+      tools: ["DevTools", "PlayWright", "TestRail", "Postman", "Allure Report", "TestNG"]
     },
     {
       icon: <Terminal className="w-6 h-6" />,
       title: "Development Tools",
       color: "bg-gradient-to-r from-orange-500 to-orange-600",
-      tools: ["Webpack", "Babel"]
+      tools: ["Webpack", "Babel", "Maven"]
     },
     {
       icon: <User2 className="w-6 h-6" />,
       title: "Collaboration Tools",
       color: "bg-gradient-to-r from-pink-500 to-pink-600",
-      tools: ["Jira", "Slack"]
+      tools: ["Jira", "Slack", "TestRail"]
     },
     {
       icon: <Cloud className="w-6 h-6" />,
